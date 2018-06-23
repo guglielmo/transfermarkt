@@ -1,2 +1,50 @@
-# Ignore output of scraper
-data.sqlite
+# Basics
+*.py[cod]
+*.pyc
+__pycache__
+
+# Env file
+env
+*.env
+
+# Logs
+*.log
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+*.pot
+
+# Pycharm
+.idea
+
+# Vim
+
+*~
+*.swp
+*.swo
+
+# npm
+node_modules/
+
+# Campass
+.sass-cache
+
+# osx .DS_Store
+.DS_Store
+
+.gitattributes
+
+/venv
+dump*
+
+.ipynb_checkpoints
+
+*.zip
+
+resources/data/bdap_anagrafe_enti.csv
