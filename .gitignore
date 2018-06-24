@@ -42,9 +42,10 @@ node_modules/
 
 /venv
 dump*
+*.sqlite
 
 .ipynb_checkpoints
 
 *.zip
 
-resources/data/bdap_anagrafe_enti.csv
+
