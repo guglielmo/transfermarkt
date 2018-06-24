@@ -1,14 +1,14 @@
 import copy
 import os
 
-import scraperwiki
-import requests
-import lxml.html
-
 # morph.io requires this db filename, but scraperwiki doesn't nicely
 # expose a way to alter this. So we'll fiddle our environment ourselves
 # before our pipeline modules load.
 os.environ['SCRAPERWIKI_DATABASE_NAME'] = 'sqlite:///data.sqlite'
+
+import scraperwiki
+import requests
+import lxml.html
 
 starting_leagues = [
     {'name': 'Seria A', 'code': 'IT1', 'slug': 'serie-a'},
